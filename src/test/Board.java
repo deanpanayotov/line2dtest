@@ -26,7 +26,7 @@ public class Board extends JPanel{
     	ry2=140;
     	Line2D line=new Line2D.Double(lx1,ly1,lx2,ly2);
     	Rectangle2D rect=new Rectangle2D.Double(rx1,ry1,rx2,ry2);
-    	String str=new String("ololol:"+(line.intersects(rect)));
+    	String str=new String("Version 2:"+(line.intersects(rect)));
     	super.paint(g);
     	
     Graphics2D g2 = (Graphics2D) g;
